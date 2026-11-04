@@ -42,11 +42,11 @@ h3{font:600 1.6rem/1.15 var(--display);text-transform:uppercase;letter-spacing:.
 /* header */
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--concrete);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;flex-wrap:wrap;padding-block:8px}
-.mark{display:block;background:#fff;padding:3px 6px;line-height:0;text-decoration:none}
+.mark{display:block;line-height:0;text-decoration:none}
 .mark img{height:48px;width:auto;display:block}
 .logo-d{display:none!important}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logo-l{display:none!important}:root:not([data-theme="light"]) .logo-d{display:block!important}:root:not([data-theme="light"]) .mark{background:#000}}
-:root[data-theme="dark"] .logo-l{display:none!important}:root[data-theme="dark"] .logo-d{display:block!important}:root[data-theme="dark"] .mark{background:#000}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logo-l{display:none!important}:root:not([data-theme="light"]) .logo-d{display:block!important}}
+:root[data-theme="dark"] .logo-l{display:none!important}:root[data-theme="dark"] .logo-d{display:block!important}
 .top nav{display:flex;gap:20px;align-items:center;font-weight:600;font-size:.95rem}
 .top nav a{text-decoration:none}
 .top nav a:hover{color:var(--chalk)}
@@ -163,7 +163,7 @@ footer strong{font:900 1.2rem var(--display);color:var(--ink);letter-spacing:.02
 <body>
 <header class="top band">
   <div class="wrap">
-    <a class="mark" href="#home"><img class="logo-l" src="img/logo.jpg" alt="Block N Mortar" width="673" height="264"><img class="logo-d" src="img/logo-dark.jpg" alt="Block N Mortar" width="673" height="264"></a>
+    <a class="mark" href="#home"><img class="logo-l" src="img/logo.png" alt="Block N Mortar" width="1302" height="481"><img class="logo-d" src="img/logo-dark.png" alt="Block N Mortar" width="1302" height="481"></a>
     <nav aria-label="Main">
       <a href="#services">Services</a>
       <a href="#projects">Projects</a>
@@ -361,7 +361,7 @@ footer strong{font:900 1.2rem var(--display);color:var(--ink);letter-spacing:.02
 
 <footer class="band">
   <div class="wrap">
-    <span class="mark"><img class="logo-l" src="img/logo.jpg" alt="Block N Mortar" width="673" height="264"><img class="logo-d" src="img/logo-dark.jpg" alt="Block N Mortar" width="673" height="264"></span>
+    <span class="mark"><img class="logo-l" src="img/logo.png" alt="Block N Mortar" width="1302" height="481"><img class="logo-d" src="img/logo-dark.png" alt="Block N Mortar" width="1302" height="481"></span>
     <span>General contractors · Freetown, Sierra Leone</span>
   </div>
 </footer>
